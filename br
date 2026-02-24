@@ -1,0 +1,44 @@
+index.html<!DOCTYPE html>
+<html>
+<head>
+  <title>Fale Comigo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .botao {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 18px;
+      color: white;
+      background-color: #25D366;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .botao:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fale comigo agora</h1>
+  <p>Clique no botão abaixo para conversar no WhatsApp</p>  
+
+  <a class="botao" href="https://wa.me/5531980211626" target="_blank">
+    Me chamar no WhatsApp
+  </a>
+
+</body>
+</html>
