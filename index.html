@@ -1,45 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fale Comigo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #f4f4f4;
-    }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carro à Venda</title>
 
-    h1 {
-      color: #333;
-    }
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-    .botao {
-      display: inline-block;
-      padding: 15px 25px;
-      font-size: 18px;
-      color: white;
-      background-color: #25D366;
-      text-decoration: none;
-      border-radius: 8px;
-      margin-top: 20px;
-    }
+.container {
+    padding: 30px 20px;
+}
 
-    .botao:hover {
-      opacity: 0.8;
-    }
-  </style>
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 26px;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.info {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #25D366;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    opacity: 0.9;
+}
+
+.urgencia {
+    margin-top: 20px;
+    font-size: 14px;
+    color: red;
+}
+</style>
 </head>
+
 <body>
 
-  <h1>Fale comigo agora</h1>
-  <p>Clique no botão abaixo para conversar no WhatsApp</p>  
+<div class="container">
 
-  <<a href="https://wa.me/5531980211626?text=Oi%2C%20vim%20pelo%20anuncio%20e%20quero%20saber%20mais" target="_blank" 
-style="background-color:#25D366; color:white; padding:15px 25px; text-decoration:none; border-radius:8px; font-weight:bold;">
-Falar no WhatsApp
+<h1>🚗 SEU CARRO AQUI</h1>
+
+<div class="preco">R$ 101,900</div>
+
+<a href="https://wa.me/5531980211626?text=Oi%2C%20vim%20pelo%20anuncio%20e%20quero%20mais%20informacoes%20sobre%20o%20carro" 
+class="botao" target="_blank">
+CHAMAR NO WHATSAPP
 </a>
+
+<div class="urgencia">
+⚠️ Primeiro que chamar leva.
+</div>
+
+</div>
 
 </body>
 </html>
